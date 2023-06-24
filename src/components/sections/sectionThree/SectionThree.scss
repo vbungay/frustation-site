@@ -1,0 +1,60 @@
+.section {
+    height: 150vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+
+    .left {
+        height: 100%;
+        padding-right: 50px;
+        width: 35%;
+
+        h2 {
+            font-size: 223px;
+            font-family: canopee;
+            font-weight: 100;
+            color: #111;
+        }
+
+        img {
+            height: 55%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        p {
+            font-size: 24px;
+            font-family: "Editorial New";
+            color: #343a40;
+            margin-bottom: 20px;
+        }
+    }
+
+    .right {
+        height: 100%;
+        width: 65%;
+
+        img {
+            height: 55%;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 223px;
+            font-family: canopee;
+            font-weight: 100;
+            color: #111;
+        }
+
+        p {
+            font-size: 24px;
+            font-family: "Editorial New";
+            color: #343a40;
+            margin-top: 20px;
+        }
+    }
+}
