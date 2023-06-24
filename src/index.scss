@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #C4BCB3;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Monument Extended';
+  src: url('./assets/fonts/MonumentExtended-Regular.otf') format('opentype'),
+}
+
+@font-face {
+  font-family: 'Canopee';
+  src: url('./assets/fonts/Canopee\ Regular.otf') format('opentype'),
+}
+
+@font-face {
+  font-family: 'Domain';
+  src: url('./assets/fonts/domain.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Editorial New';
+  src: url('./assets/fonts/PPEditorialNew-Regular-BF644b214ff145f.otf') format('opentype'),
+}
+
+::-webkit-scrollbar {
+  width: 7px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track { 
+  background-color: transparent;/* Adjust the color of the scrollbar track */
+  border-radius: 10px; /* Make the track rounded */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111; /* Adjust the color of the scrollbar thumb */
+  border-radius: 10px; /* Make the thumb rounded */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Adjust the color of the scrollbar thumb when hovered */
+}
